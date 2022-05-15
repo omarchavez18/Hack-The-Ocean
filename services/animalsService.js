@@ -5,7 +5,7 @@ class animalsService {
     return animalsNames;
   }
 
-  // consultar nombre de los animales mamiferos
+  // consultar nombre de los animales por su tipo
   static filterAnimalsByType(animals, type) {
     const animalSpecie = animals
       .filter((animal) => animal.type == type)
