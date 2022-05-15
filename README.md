@@ -45,13 +45,7 @@ _Base URL_: `https://api-omar-oceanrisk.herokuapp.com/`
 - Visit the link `http://localhost:3000` on your browser to access resources
 - Run `npm test` to get test report
 
-## Author
-<div align="center">
-<img src="https://user-images.githubusercontent.com/70416006/121233844-aff9e800-c858-11eb-99e4-d36b833d3fa9.png">
-</div>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/70416006/121235243-42e75200-c85a-11eb-967d-ea05dd5efe1f.png">
-</div>
+
 
 👤 &nbsp; **Omar Chávez**
 
