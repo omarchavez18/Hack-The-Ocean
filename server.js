@@ -7,9 +7,9 @@ const app = express();
 app.use(express.json());
 
 //cors
-app.use(function (req, res) {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-});
+// app.use(function (req, res) {
+//   res.setHeader("Access-Control-Allow-Origin", "*");
+// });
 // eslint-disable-next-line no-undef
 const port = process.env.PORT || 3000;
 
