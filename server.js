@@ -1,15 +1,13 @@
 const animals = require("./animals");
 const express = require("express");
 const animalsService = require("./services/animalsService");
-//const animalsControllers = require("./controllers/animalsControllers");
+const cors = require("cors");
 
 const app = express();
 app.use(express.json());
 
 //cors
-// app.use(function (req, res) {
-//   res.setHeader("Access-Control-Allow-Origin", "*");
-// });
+app.use(cors({ origin: "*" }));
 // eslint-disable-next-line no-undef
 const port = process.env.PORT || 3000;
 
