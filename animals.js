@@ -11,7 +11,7 @@ const animals = [
   {
     img: "https://static.nationalgeographicla.com/files/styles/image_3200/public/hawksbill-sea-turtle_01.webp?w=1450&h=966&q=100",
     id: "2",
-    name: "Tortuga_Carey",
+    name: "Tortuga Carey",
     scientificName: "Eretmochelys imbricata",
     type: "Reptile",
     zone: "Gulf of Mexico",
