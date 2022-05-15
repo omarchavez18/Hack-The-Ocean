@@ -5,16 +5,14 @@ const animals = require("../../animals");
 
 describe("obtener lista de los animals.js", () => {
     test("lista de names", () => {
-        const names = animals.map((animal) => animal.name);
-        const animales = animalsService.filterAnimals(animals);
+        const names = animals.filter((animal) => animal.name === "Rorcual común");
+        const animales = animalsService.filterAnimals(animals, "Rorcual común");
         expect(animales).toStrictEqual(names);
     });
 
     // lista de los animales segun su type
     test("lista de animales segun su tipo", () => {
-        const animalType = animals
-            .filter((animal) => animal.type == "Mammal")
-            .map((animal) => animal.name);
+        const animalType = animals.filter((animal) => animal.type == "Mammal");
 
         const animalesEspecie = animalsService.filterAnimalsByType(
             animals,
@@ -23,11 +21,10 @@ describe("obtener lista de los animals.js", () => {
         expect(animalType).toStrictEqual(animalesEspecie);
     });
 
-    //
     test("lista de animales que tengan status vulnerable", () => {
-        const statusVulnerable = animals
-            .filter((animal) => animal.status == "Vulnerable")
-            .map((animal) => animal.name);
+        const statusVulnerable = animals.filter(
+            (animal) => animal.status == "Vulnerable"
+        );
 
         const animalesVulnerables = animalsService.filterByStatus(
             animals,
@@ -35,13 +32,4 @@ describe("obtener lista de los animals.js", () => {
         );
         expect(statusVulnerable).toStrictEqual(animalesVulnerables);
     });
-
-    // test("lista de animales y sus zonas", () => {
-    //   const animalZone = animals
-    //     .filter((animal) => animal)
-    //     .map((animal) => animal.name && animal.zone);
-
-    //   const animalesVulnerables = animalsService.filterByStatus(animals);
-    //   expect(animalZone).toStrictEqual("");
-    // });
 });

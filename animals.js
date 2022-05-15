@@ -9,6 +9,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://static.nationalgeographicla.com/files/styles/image_3200/public/hawksbill-sea-turtle_01.webp?w=1450&h=966&q=100",
         id: "2",
         name: "Tortuga Carey",
         scientificName: "Eretmochelys imbricata",
@@ -18,6 +19,7 @@ const animals = [
     },
 
     {
+        img: "https://blog.dolphindiscovery.com.mx/wp-content/uploads/2021/07/datos-curiosos-vaquita-marina.jpg",
         id: "3",
         name: "Vaquita marina",
         scientificName: "Phocoena sinus",
@@ -26,6 +28,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://static.nationalgeographic.es/files/styles/image_3200/public/02-whale-gallery.jpg?w=768",
         id: "4",
         name: "Ballena azul",
         scientificName: "Balaenoptera musculus",
@@ -34,6 +37,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://www.poresto.net/u/fotografias/m/2021/5/22/f608x342-82508_112231_14.jpg",
         id: "5",
         name: "tortuga Lora",
         scientificName: "Lepidochelys kempii",
@@ -42,6 +46,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/en-exclusiva/programados/los-vinculos-familiares-que-crean-las-hembras-de-leon-marino-de-steller/5997552-1-esl-MX/Los-vinculos-familiares-que-crean-las-hembras-de-leon-marino-de-Steller.jpg",
         id: "6",
         name: "León marino de Steller",
         scientificName: "Eumetopias jubatus",
@@ -50,6 +55,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://static.inaturalist.org/photos/93750004/large.jpg",
         id: "7",
         name: "Tiburón martillo gigante",
         scientificName: "Sphyrna mokarran",
@@ -58,6 +64,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://www.fundacionaquae.org/wp-content/uploads/2019/09/82.-BALLENA-RORCUAL-1024x576.jpg.webp",
         id: "8",
         name: "Rorcual común",
         scientificName: "Balaenoptera physalus",
@@ -66,6 +73,7 @@ const animals = [
         status: "Vulnerable",
     },
     {
+        img: "https://moondolphins.files.wordpress.com/2015/09/1810080720_delfinhector.jpg",
         id: "9",
         name: "Delfín de cabeza blanca",
         scientificName: "Cephalorhynchus hectori",
@@ -74,6 +82,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2016/10/18/44036BCB-E680-4E02-9678-0187FEC97BF2/58.jpg",
         id: "10",
         name: "Tortuga verde",
         scientificName: "Chelonia mydas",
@@ -82,6 +91,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://t1.ev.ltmcdn.com/es/posts/5/8/0/el_manati_en_peligro_de_extincion_2085_600.jpg",
         id: "11",
         name: "Manatí",
         scientificName: "Trichechus manatus",
@@ -90,6 +100,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://media.baamboozle.com/uploads/images/256390/1623347615_123605.jpeg",
         id: "12",
         name: "Foca Monje Mediterránea",
         scientificName: "Monachus monachus",
@@ -98,6 +109,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://mamiferosmarinos.net/wp-content/uploads/2019/03/ballena-gris...png",
         id: "13",
         name: "Ballena gris",
         scientificName: "Eschrichtius robustus",
@@ -106,6 +118,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://phantom-marca.unidadeditorial.es/02ade7f3e0ec95abd2b4aa1c4a96f912/resize/1320/f/jpg/assets/multimedia/imagenes/2021/11/16/16370423262337.jpg",
         id: "14",
         name: "Tiburon blanco",
         scientificName: "Carcharodon carcharias",
@@ -114,6 +127,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://misanimales.com/wp-content/uploads/2021/07/pez-napoleon-mar.jpg",
         id: "15",
         name: "Pez Napoleón",
         scientificName: "Cheilinus undulatus",
@@ -122,6 +136,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://lavozdelmuro.net/wp-content/uploads/2020/01/Delf%C3%ADn-R%C3%ADo-Irawadi-09.jpg",
         id: "16",
         name: "Delfín del río Irrawaddy",
         scientificName: "Orcaella brevirostris",
@@ -130,6 +145,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://i.pinimg.com/originals/40/b3/01/40b301c0306b8c872bc9db1c58ac77e7.jpg",
         id: "17",
         name: "Tiburón raya",
         scientificName: "Rhina ancylostoma",
@@ -138,6 +154,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://www.depeces.com/wp-content/uploads/2018/10/nutria-marina.jpg",
         id: "18",
         name: "Nutria marina",
         scientificName: "Enhydra lutris",
@@ -146,6 +163,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/07/Tiburon-ballena_Deposit-Photos_1920x1280.jpg",
         id: "19",
         name: "Tiburon ballena",
         scientificName: "Rhincodon Typus",
@@ -154,6 +172,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://biogeodb.stri.si.edu/sftep/resources/img/images/species/265_1684.jpg",
         id: "20",
         name: "Raya águila de cabeza larga",
         scientificName: "Aetobatus flagellum",
@@ -161,7 +180,9 @@ const animals = [
         zone: "India, Indonesia",
         status: "Extinction danger",
     },
+
     {
+        img: "https://www.ecoticias.com/wp-content/uploads/2022/01/200-16.jpg",
         id: "21",
         name: "Pez de sierras estrechas",
         scientificName: "Anoxypristis cuspidata",
@@ -170,6 +191,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://t2.ev.ltmcdn.com/es/posts/7/4/0/sargo_cabezon_1047_8_600.jpg",
         id: "22",
         name: "Sargo cabezón",
         scientificName: "Chrysoblephus gibbiceps",
@@ -178,6 +200,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://titulares.ar/wp-content/uploads/2021/12/Enorme-pez-luna-filmado-frente-a-la-costa-de-California.jpg",
         id: "23",
         name: "Pez luna",
         scientificName: "Mola mola",
@@ -186,6 +209,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "https://4.bp.blogspot.com/-HlXru33ojvc/Tn94gQjSujI/AAAAAAAAWnA/wdtK_P0n9Gk/s1600/2910080349_tiburonmartillo.jpg",
         id: "24",
         name: "Cornuda planeadora",
         scientificName: "Eusphyra blochii",
@@ -194,6 +218,7 @@ const animals = [
         status: "Extinction danger",
     },
     {
+        img: "http://pecesdelmar.com/wp-content/uploads/2020/05/Los-10-TIBURONES-m%C3%A1s-GRANDES-del-mundo.jpg",
         id: "25",
         name: "Tiburón mudo",
         scientificName: "Centrophorus harrissoni",
