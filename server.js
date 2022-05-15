@@ -13,27 +13,29 @@ const port = process.env.PORT || 3000;
 
 //endpoint prueba de bienvenida
 app.get("/", (req, res) => {
-  res.json({ animals });
+    res.json({ animals });
 });
 
 //endpoint nombre de los animales
 app.get("/animals/name/:name", (req, res) => {
-  const animales = animalsService.filterAnimals(animals, req.params.name);
-  res.json(animales);
+    const parseName = req.params.name.split("_").join(" ");
+    const animales = animalsService.filterAnimals(animals, parseName);
+    res.json(animales);
 });
 
 //endpoint nombre de los animales por su tipo
 app.get("/animals/type/:type", (req, res) => {
-  const animales = animalsService.filterAnimalsByType(animals, req.params.type);
-  res.json(animales);
+    const animales = animalsService.filterAnimalsByType(animals, req.params.type);
+    res.json(animales);
 });
 
 //endpoint nombre de los animales por su status
 app.get("/animals/status/:status", (req, res) => {
-  const animales = animalsService.filterByStatus(animals, req.params.status);
-  res.json(animales);
+    const parseStatus = req.params.name.split("_").join(" ");
+    const animales = animalsService.filterByStatus(animals, parseStatus);
+    res.json(animales);
 });
 
 app.listen(port, () => {
-  console.log("Code Challenge Server Ready!!");
+    console.log("Code Challenge Server Ready!!");
 });
